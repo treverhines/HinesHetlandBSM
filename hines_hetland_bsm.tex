@@ -22,8 +22,7 @@ In this study, we assess the ability of BSMs to measure strain resulting from sl
 GNSS derived strains are computed with Gaussian process regression using the method described in \citep{Hines2017}.   
 
 \section{Data}
-Each of the PBO BSMs are Gladwin tensor strain meters, which contain four extensometers, or gauges, oriented $60^\circ$, $60^\circ$, and $30^\circ$ apart from each other. We denote the extension measured at gauge $i$ as $e_i$, and the strain tensor components as $\varepsilon_{xx}$, $\varepsilon_{yy}$, and $\varepsilon_{xy}$, where $x$ and $y$ indicate the east and north direction, respectively. The extensions measured at BSMs are traditionally converted into areal strain, $\varepsilon_a = \varepsilon_{xx} + \varepsilon_{yy}$, differential strain $\varepsilon_d = \varepsilon_{xx} - \varepsilon_{yy}$, and engineering shear strain, $\varepsilon_s = 2\varepsilon_{xy}$. If gauge 0 is oriented along direction $\theta_0$, measured in degrees north of east, then the strain components can be expressed in terms of the gauge measurements through the equation 
-
+Each of the PBO BSMs are Gladwin tensor strain meters, which contain four extensometers, or gauges, oriented $60^\circ$, $60^\circ$, and $30^\circ$ apart from each other. We denote the extension measured at gauge $i$ as $e_i$, and the strain tensor components as $\varepsilon_{xx}$, $\varepsilon_{yy}$, and $\varepsilon_{xy}$, where $x$ and $y$ indicate the east and north direction, respectively. The extensions measured at BSMs are traditionally converted into areal strain, $\varepsilon_a = \varepsilon_{xx} + \varepsilon_{yy}$, differential strain $\varepsilon_d = \varepsilon_{xx} - \varepsilon_{yy}$, and engineering shear strain, $\varepsilon_s = 2\varepsilon_{xy}$. Data from only three gauges are needed to estimate these strain components, and the PBO BSMs contain an extra gauge for redundancy. Using $\theta_0$ the denote the orientation of gauge 0, in degrees north of east, the strain components can be expressed in terms of the gauge measurements through the equation 
 \begin{equation}\label{eq:GaugeToStrain}
 \left[\begin{array}{c}
 \varepsilon_a \\
@@ -55,39 +54,11 @@ c & 0 & 0 \\
 \end{equation}  
 where $c$, and $d$ are response factors that depend on the elastic properties of the instrument, the grout, and surrounding rock \citep{Gladwin1985}. Based on the analysis of \citet{Gladwin1985}, we use $c=1.5$ and $d=3.0$. UNAVCO, the organization responsible for maintaining the PBO BSMs and disseminating their data, use these same response factors for their final data products. 
 
-Localize topographic or geologic features can cause $\mathbf{K}$ to have non-zero off diagonal elements. If possible, the components of $\mathbf{K}$ should be determined in-situ by calibrating the BSM data with a well known strain source, such as diurnal and semi-diurnal tides \citep{Hart1996,Roeloffs2010,Hodgkinson2013}. \citet{Hart1996} calibrated a BSM at Pinyon Flat, using the tidal strains recorded at a collocated laser strain meter. This calibration method is, of course, not possible for most PBO BSMs. \citet{Roeloffs2010} and \citet{Hodgkinson2013} calibrated PBO BSMs using theoretical predictions of tidal strains \citep[e.g.,][]{Agnew1997}. This approach is still not adequate for BSMs near large local bodies of water, which can make it difficult to form an accurate theoretical estimate of tidal strains. As determined by \citet{Roeloffs2010}, the five BSM stations considered in this paper are too close to the Straight of Juan de Fuca to be accurately calibrated with tidal strains. Since in-situ calibration is not possible, we acknowledge that our choice for $\mathbf{K}$ is likely to be a significant source of error in BSM data. Another source of error is orientation.   
-
-While eq. \ref{eq:CouplingMatrix} with $c=1.5$ and $d=3.0$ is our best guess for an appropriate coupling matrix, this assumption is likely to be a significant source of error.
-
-our best choice for to assume the coupling matrix from eq. \ref{eq:CouplingMatrix}.      
-
-
-
-
-complicate it can difficult to accurately account for local bodies of water in theoretical predictions of tidal strains, and the BSM can be prone to error at BSMs near large local bodies of water.    It is not possible not a calibration strategy It is not always possible, or at least advisable, to calibrate BSMs with theoretical predictions of tides     
-
-
-which    Coupling matrices should be determined in-situ for each 
-
-
-If possible, the coupling matrix should be determined in-situ,  the can also be determined  
-
-If possible, the coupling matrix should be determined in-situ, by finding the components $\mathbf{K}$ that are  calibrating the BSM with some  
- 
-
- the areal, differential, and engineering shear strain measured by the instrument relate to those strain  
-
-Assuming that the first gauge is oriented along $\theta$, then the extensional strains measured at each gauge, $[e_0,e_1,e_2,e_3]$, can be converted to the traditionally used areal strain, $\varepsilon_a$, differential strain, $\varepsilon_d$, and engineering shear strain, $\varepsilon_s$, by
-
-
-
-These BSMs can measure the full horizontal strain tensor with    
+Local topographic or geologic features can cause $\mathbf{K}$ to have non-zero off diagonal elements. If possible, the components of $\mathbf{K}$ should be determined in-situ by calibrating the BSM data with a well known strain source, such as diurnal and semi-diurnal tides \citep{Hart1996,Roeloffs2010,Hodgkinson2013}. \citet{Hart1996} calibrated a BSM at Pinyon Flat, using the tidal strains recorded at a collocated laser strain meter. This calibration method is, of course, not possible for most PBO BSMs. \citet{Roeloffs2010} and \citet{Hodgkinson2013} calibrated PBO BSMs using theoretical predictions of tidal strains \citep[e.g.,][]{Agnew1997}. This approach is still not adequate for BSMs near large local bodies of water, which can make it difficult to form an accurate theoretical estimate of tidal strains. As determined by \citet{Roeloffs2010}, the five BSM stations considered in this paper are too close to the Straight of Juan de Fuca to be accurately calibrated with tidal strains. Since in-situ calibration is not possible, we acknowledge that our choice for $\mathbf{K}$ is likely to be a significant source of error in BSM data. Another potential source of error is the assumed orientation for $\theta_0$. This orientation is determined by a compass on the instrument, and it is possible that magnetic minerals in the surrounding rock can give the compass an erroneous reading. 
 
 that record extension along four azimuths  
 In this study we use the level2 PBO BSM data provided by UNAVCO at www.unavco.org.     
 
-
-foo \citet{Hines2017}
 
 \section{Method}\label{sec:Method}
 bar
