@@ -42,16 +42,11 @@ Hart, R. H.~G., Gladwin, M.~T., Gwyther, R.~L., Agnew, D.~C., and Wyatt, F.~K.
   small-scale inhomogeneity}.
 \newblock {\em Journal of Geophysical Research}, 101(96).
 
-\bibitem[Hines and Hetland, 2017a]{Hines2017a}
-Hines, T.~T. and Hetland, E.~A. (2017a).
+\bibitem[Hines and Hetland, 2017]{Hines2017a}
+Hines, T.~T. and Hetland, E.~A. (2017).
 \newblock {Revealing transient strain in geodetic data with Gaussian process
   regression}.
 \newblock {\em submitted to Geophysical Journal International}, pages 1--25.
-
-\bibitem[Hines and Hetland, 2017b]{Hines2017}
-Hines, T.~T. and Hetland, E.~A. (2017b).
-\newblock {Unbiased characterization of noise in geodetic data}.
-\newblock {\em submitted to Journal of Geodesy}.
 
 \bibitem[Hodgkinson et~al., 2013]{Hodgkinson2013}
 Hodgkinson, K., Agnew, D., and Roeloffs, E. (2013).

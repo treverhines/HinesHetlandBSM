@@ -3,44 +3,44 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: hines_hetland_bsm.aux
 The style file: apalike.bst
 Database file #1: mybib.bib
-You've used 13 entries,
+You've used 12 entries,
             1935 wiz_defined-function locations,
-            571 strings with 6107 characters,
-and the built_in function-call counts, 5194 in all, are:
-= -- 524
-> -- 191
-< -- 10
-+ -- 63
-- -- 62
-* -- 460
-:= -- 901
-add.period$ -- 39
-call.type$ -- 13
-change.case$ -- 96
+            566 strings with 5970 characters,
+and the built_in function-call counts, 4883 in all, are:
+= -- 494
+> -- 178
+< -- 9
++ -- 58
+- -- 58
+* -- 437
+:= -- 843
+add.period$ -- 36
+call.type$ -- 12
+change.case$ -- 89
 chr.to.int$ -- 12
-cite$ -- 13
-duplicate$ -- 185
-empty$ -- 369
-format.name$ -- 87
-if$ -- 1004
-int.to.chr$ -- 2
+cite$ -- 12
+duplicate$ -- 172
+empty$ -- 349
+format.name$ -- 80
+if$ -- 945
+int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 13
-newline$ -- 68
-num.names$ -- 39
-pop$ -- 65
+missing$ -- 12
+newline$ -- 63
+num.names$ -- 36
+pop$ -- 59
 preamble$ -- 1
-purify$ -- 96
+purify$ -- 89
 quote$ -- 0
-skip$ -- 146
+skip$ -- 136
 stack$ -- 0
-substring$ -- 419
-swap$ -- 18
+substring$ -- 407
+swap$ -- 17
 text.length$ -- 1
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 78
+type$ -- 72
 warning$ -- 0
-while$ -- 49
+while$ -- 47
 width$ -- 0
-write$ -- 170
+write$ -- 158
