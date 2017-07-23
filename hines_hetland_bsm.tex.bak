@@ -100,7 +100,7 @@ The magnitude and
 \section{Reorienting B018}     
 
 \begin{figure}
-\includegraphics[scale=0.8]{figures/SSE1.pdf}
+\includegraphics[scale=1.0]{figures/SSE1.pdf}
 \caption{foo}   
 \label{fig:SSE1}
 \end{figure}
