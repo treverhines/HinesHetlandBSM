@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.22)  23 JUL 2017 18:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.8.24)  24 JUL 2017 10:28
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -298,60 +298,66 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
-<figures/SSE1.pdf, id=17, 505.89pt x 433.62pt>
+<figures/map.pdf, id=17, 433.62pt x 361.35pt>
+File: figures/map.pdf Graphic file (type pdf)
+ <use figures/map.pdf>
+Package pdftex.def Info: figures/map.pdf used on input line 75.
+(pdftex.def)             Requested size: 433.61894pt x 361.34912pt.
+
+<figures/SSE1.pdf, id=18, 505.89pt x 433.62pt>
 File: figures/SSE1.pdf Graphic file (type pdf)
  <use figures/SSE1.pdf>
-Package pdftex.def Info: figures/SSE1.pdf used on input line 78.
+Package pdftex.def Info: figures/SSE1.pdf used on input line 84.
 (pdftex.def)             Requested size: 505.88875pt x 433.61894pt.
 
-Overfull \hbox (22.19188pt too wide) in paragraph at lines 78--79
+Overfull \hbox (22.19188pt too wide) in paragraph at lines 84--85
 [][] 
  []
 
-[2] [3 <./figures/SSE1.pdf>] <figures/gnss.pdf, id=54, 505.89pt x 361.35pt>
+[2] [3 <./figures/map.pdf>] [4 <./figures/SSE1.pdf>]
+<figures/gnss.pdf, id=92, 505.89pt x 361.35pt>
 File: figures/gnss.pdf Graphic file (type pdf)
-
-<use figures/gnss.pdf>
-Package pdftex.def Info: figures/gnss.pdf used on input line 92.
+ <use figures/gnss.pdf>
+Package pdftex.def Info: figures/gnss.pdf used on input line 98.
 (pdftex.def)             Requested size: 505.88875pt x 361.34912pt.
-
-Overfull \hbox (22.19188pt too wide) in paragraph at lines 92--93
-[][] 
- []
-
-<figures/gauge.pdf, id=55, 505.89pt x 289.08pt>
-File: figures/gauge.pdf Graphic file (type pdf)
- <use figures/gauge.pdf>
-Package pdftex.def Info: figures/gauge.pdf used on input line 98.
-(pdftex.def)             Requested size: 505.88875pt x 289.07928pt.
 
 Overfull \hbox (22.19188pt too wide) in paragraph at lines 98--99
 [][] 
  []
 
-<figures/fit.pdf, id=56, 433.62pt x 361.35pt>
+<figures/gauge.pdf, id=93, 505.89pt x 289.08pt>
+File: figures/gauge.pdf Graphic file (type pdf)
+ <use figures/gauge.pdf>
+Package pdftex.def Info: figures/gauge.pdf used on input line 104.
+(pdftex.def)             Requested size: 505.88875pt x 289.07928pt.
+
+Overfull \hbox (22.19188pt too wide) in paragraph at lines 104--105
+[][] 
+ []
+
+<figures/fit.pdf, id=94, 433.62pt x 361.35pt>
 File: figures/fit.pdf Graphic file (type pdf)
  <use figures/fit.pdf>
-Package pdftex.def Info: figures/fit.pdf used on input line 104.
+Package pdftex.def Info: figures/fit.pdf used on input line 110.
 (pdftex.def)             Requested size: 433.61894pt x 361.34912pt.
 
-<figures/misfit.pdf, id=57, 361.35pt x 289.08pt>
+<figures/misfit.pdf, id=95, 361.35pt x 289.08pt>
 File: figures/misfit.pdf Graphic file (type pdf)
  <use figures/misfit.pdf>
-Package pdftex.def Info: figures/misfit.pdf used on input line 110.
+Package pdftex.def Info: figures/misfit.pdf used on input line 116.
 (pdftex.def)             Requested size: 361.34912pt x 289.07928pt.
 
-[4 <./figures/gnss.pdf>] (./hines_hetland_bsm.bbl [5 <./figures/gauge.pdf>]
-[6 <./figures/fit.pdf>]) [7 <./figures/misfit.pdf>] (./hines_hetland_bsm.aux) )
+[5 <./figures/gnss.pdf>] (./hines_hetland_bsm.bbl [6 <./figures/gauge.pdf>]
+[7 <./figures/fit.pdf>]) [8 <./figures/misfit.pdf>] (./hines_hetland_bsm.aux) )
  
 Here is how much of TeX's memory you used:
- 3477 strings out of 494910
- 46349 string characters out of 6179836
- 116249 words of memory out of 5000000
- 6714 multiletter control sequences out of 15000+600000
+ 3483 strings out of 494910
+ 46444 string characters out of 6179836
+ 116257 words of memory out of 5000000
+ 6719 multiletter control sequences out of 15000+600000
  12161 words of font info for 47 fonts, out of 8000000 for 9000
  36 hyphenation exceptions out of 8191
- 38i,8n,24p,1517b,246s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 38i,8n,24p,1541b,246s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/
 share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/
 texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texliv
@@ -364,10 +370,10 @@ sfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/c
 m/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy
 7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on hines_hetland_bsm.pdf (7 pages, 502248 bytes).
+Output written on hines_hetland_bsm.pdf (8 pages, 663667 bytes).
 PDF statistics:
- 306 PDF objects out of 1000 (max. 8388607)
- 103 compressed objects within 2 object streams
+ 344 PDF objects out of 1000 (max. 8388607)
+ 111 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
